@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.display {
+  padding: 1rem;
+}
+.keypad {
+  border: 1rem;
+  border-color: black;
+}
+.keyList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  list-style-type: none;
+  margin-right: 2rem;
+}
+
+.keyList li {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
